@@ -1,0 +1,19 @@
+# Ignore target directories in all subdirectories
+**/target/
+
+# Ignore build artifacts
+*.rlib
+
+# Ignore Cargo lock file if it's a library (optional)
+Cargo.lock
+
+# Ignore IDE or editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore other OS or common files
+.DS_Store
+Thumbs.db
+
